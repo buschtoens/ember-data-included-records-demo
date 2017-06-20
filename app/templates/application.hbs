@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#each model as |author|}}
+  <section>
+    <h1>Posts of {{author.firstName}} {{author.lastName}}</h1>
 
-{{outlet}}
+    <ul>
+      {{#each author.blogPosts as |blogPost|}}
+        <li>{{blogPost.title}}</li>
+      {{/each}}
+    </ul>
+  </section>
+{{/each}}

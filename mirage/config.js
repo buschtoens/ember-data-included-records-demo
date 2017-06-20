@@ -23,4 +23,10 @@ export default function() {
 
     http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
   */
+
+  this.get('/authors');
+  this.get('/authors/:id');
+
+  this.get('/blog-posts');
+  this.get('/blog-posts/:id');
 }
