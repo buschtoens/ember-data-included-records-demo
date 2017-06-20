@@ -9,8 +9,8 @@ export default function(server) {
 
   // server.createList('post', 10);
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 2; i++) {
     const author = server.create('author');
-    server.createList('blog-post', 5, { author });
+    server.createList('blog-post', 2, { author });
   }
 }
