@@ -29,4 +29,8 @@ export default function() {
 
   this.get('/blog-posts');
   this.get('/blog-posts/:id');
+
+  this.get('/show-stopper', () => {
+    console.log('Never executed');
+  })
 }
