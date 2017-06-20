@@ -2012,7 +2012,7 @@ ember-cli@2.13.2:
     walk-sync "^0.3.0"
     yam "0.0.22"
 
-ember-data@^2.13.0:
+ember-data@^2.14.2:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.14.2.tgz#b3faf3669846bc72a6249773bda1ae125f524b97"
   dependencies:
