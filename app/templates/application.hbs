@@ -1,4 +1,4 @@
-{{#each model as |author|}}
+{{#with model as |author|}}
   <section>
     <h1>Posts of {{author.firstName}} {{author.lastName}}</h1>
 
@@ -8,4 +8,4 @@
       {{/each}}
     </ul>
   </section>
-{{/each}}
+{{/with}}
